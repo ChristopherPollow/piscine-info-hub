@@ -1,0 +1,76 @@
+ body {
+       font-family: "Inter", sans-serif;
+       background: #fafafa;
+       color: #222;
+       margin: 0;
+       padding: 2rem;
+       line-height: 1.6; 
+}
+
+ header {
+       text-align: center;
+       margin-bottom: 2rem;
+ }
+
+ .langButton {
+    background-color: #fff;
+    color: #0077cc;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+       box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+ }
+
+ .langButton:hover, .langButton:active {
+    background-color: #A2C2FA;
+    color: #fff;
+    transition: 1s;
+ }
+
+ a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: 500;
+ }
+
+ h1 h2 {
+       font-size: 2rem;
+       margin-bottom: 0.5rem;
+ }
+
+ nav div {
+    display: flex;
+    flex-direction:row;
+    background: #fff;
+    margin: 1rem 0 1rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0.5,0,0,0.05);
+ }
+
+.nav-wrapper {
+    width: auto;
+    height: auto;
+}
+
+.nav-box {
+    width: auto;
+    height: auto;
+    box-shadow: 0;
+ }
+
+ section {
+       background: #fff;
+       padding: 1.5rem;
+       border-radius: 10px;
+       box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+       margin-bottom: 2rem;
+ }
+
+ footer {
+       text-align: center;
+       font-size: 0.9rem;
+       color: #666;
+ }

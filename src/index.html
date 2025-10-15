@@ -4,82 +4,58 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>42Berlin Piscine Knowledge Base</title>
-  <style>
-    body {
-      font-family: "Inter", sans-serif;
-      background: #fafafa;
-      color: #222;
-      margin: 0;
-      padding: 2rem;
-      line-height: 1.6;
-    }
-    header {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-    }
-    nav {
-      margin-bottom: 2rem;
-      background: #fff;
-      padding: 1rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    }
-    nav a {
-      margin-right: 1rem;
-      text-decoration: none;
-      color: #0077cc;
-      font-weight: 500;
-    }
-    section {
-      background: #fff;
-      padding: 1.5rem;
-      border-radius: 10px;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
-      margin-bottom: 2rem;
-    }
-    footer {
-      text-align: center;
-      font-size: 0.9rem;
-      color: #666;
-    }
-  </style>
+  <link href="style.css" rel="stylesheet"/>
 </head>
 <body>
   <header>
     <h1>🧠 42Berlin Piscine Info Hub</h1>
     <p>Gemeinsam Wissen sammeln – für alle Teilnehmer der Piscine.</p>
+    <h2>Home</h2><a class="langButton" href="InfoHubEn.html">EN </a>
+    <a class="langButton" href="./index.html">📚 Inhaltsverzeichnis</a>
+    <a class="langButton" href="index.html"> DE</a>
   </header>
 
   <nav>
-    <a href="#setup">Setup</a>
+    <!-- LINKS INSIDE A PAGE TO NAVIGATE EXAMPLE REMINDER -->
+    <!-- <a href="#setup">Setup</a>
     <a href="#shell">Shell</a>
     <a href="#git">Git</a>
-    <a href="#c">C</a>
-    <a href="#resources">Ressourcen</a>
+    <a href="#c">C</a> -->
+    <!-- <a href="#resources">Ressourcen</a> -->
+    <div class="nav-wrapper">
+      <div class="nav-box"><a href="./setupDe.html">⚙️ Einrichtung & Werkzeuge</a></div>
+      <div><a href="./shellDe.html">💻 Shell Basics & Befehle</a></div>
+      <div><a href="./gitDe.html">🌳 Git & Versionskontrolle</a></div>
+      <div><a href="./index.html">🧩Grundlagen C</a></div>
+      <div><a href="./index.html">🧯 Häufige Probleme und Lösungen</a></div>
+      <div><a href="./ressourcenDe.html">🔗 Nützliche Ressourcen</a></div>
+      <div><a href="./index.html">👥 Team & Kontakt</a></div>
+    </div>
   </nav>
 
   <section id="setup">
-    <h2>⚙️ Setup & Tools</h2>
+    <h2>⚙️ Einrichtung & Werkzeuge</h2>
     <p>Hier kommen Infos zu Installationen, Konfigurationen, Terminals etc.</p>
   </section>
 
   <section id="shell">
-    <h2>💻 Shell Basics</h2>
+    <h2>💻 Shell Basics & Befehle</h2>
     <p>Hilfreiche Befehle, Shortcuts, Tipps...</p>
   </section>
 
   <section id="git">
-    <h2>🌳 Git & Version Control</h2>
+    <h2>🌳 Git & Versionskontrolle</h2>
     <p>Alles rund um Git-Befehle, Branches und Workflows.</p>
   </section>
 
   <section id="c">
-    <h2>🧩 C Programming</h2>
+    <h2>🧩Grundlagen C</h2>
     <p>Compiler-Tipps, häufige Fehler, gute Quellen.</p>
+  </section>
+
+  <section id="c">
+    <h2>🧯 Häufige Probleme und Lösungen</h2>
+    <p>Sammlung von Problemen, auf die viele stoßen.</p>
   </section>
 
   <section id="resources">
@@ -89,6 +65,11 @@
       <li><a href="https://man7.org/linux/man-pages/" target="_blank">Linux Man Pages</a></li>
       <li><a href="https://en.cppreference.com/w/c" target="_blank">C Reference</a></li>
     </ul>
+  </section>
+
+  <section id="c">
+    <h2>👥 Team & Kontakt</h2>
+    <p>Compiler-Tipps, häufige Fehler, gute Quellen.</p>
   </section>
 
   <footer>
